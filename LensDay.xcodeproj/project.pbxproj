@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		C5CE70C52EC2559500B58282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5CE70C62EC2559500B58282 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		C5CE70C72EC2559500B58282 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5CE70C82EC2559500B58282 /* LensDay.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LensDay.xcodeproj; sourceTree = "<group>"; };
+		C5CE70C92EC2559500B58282 /* LensDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensDayApp.swift; sourceTree = "<group>"; };
+		C5CE70CA2EC2559500B58282 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5DBDF572EC0E9BC00034298 /* LensDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C5DBDF592EC0E9BC00034298 /* LensDay */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LensDay;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C5DBDF542EC0E9BC00034298 /* Frameworks */ = {
@@ -29,10 +27,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5CE70CB2EC2559500B58282 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C5DBDF4E2EC0E9BC00034298 = {
 			isa = PBXGroup;
 			children = (
-				C5DBDF592EC0E9BC00034298 /* LensDay */,
+				C5CE70C52EC2559500B58282 /* Assets.xcassets */,
+				C5CE70C62EC2559500B58282 /* CHANGELOG.md */,
+				C5CE70C72EC2559500B58282 /* ContentView.swift */,
+				C5CE70C82EC2559500B58282 /* LensDay.xcodeproj */,
+				C5CE70C92EC2559500B58282 /* LensDayApp.swift */,
+				C5CE70CA2EC2559500B58282 /* README.md */,
 				C5DBDF582EC0E9BC00034298 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +67,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C5DBDF592EC0E9BC00034298 /* LensDay */,
 			);
 			name = LensDay;
 			packageProductDependencies = (
@@ -97,6 +102,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C5DBDF582EC0E9BC00034298 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C5CE70CB2EC2559500B58282 /* Products */;
+					ProjectRef = C5CE70C82EC2559500B58282 /* LensDay.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C5DBDF562EC0E9BC00034298 /* LensDay */,
